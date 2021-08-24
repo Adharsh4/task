@@ -1,0 +1,71 @@
+
+.Tasks{
+  padding: 8% 0 0 2%;
+  /* min-height: 25%; */
+  max-width: 35%;
+  
+}
+
+.first-task{
+  border: 1px solid rgb(212, 211, 211);
+  /* background-color: brown; */
+}
+
+
+@media only screen and (max-width:1150px){
+  .Tasks{
+    padding: 8% 0 0 2%;
+    /* min-height: 25%; */
+    max-width: 55%;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .Tasks{
+    padding: 8% 0 0 2%;
+    /* min-height: 25%; */
+    max-width: 98%;
+  }
+}
+
+
+.App{
+  display: flex;
+}
+
+.SideNav{
+  background-color: #2B333E;
+  flex-grow: 1;
+  min-height: 100vh;
+  min-width: 15%;
+}
+
+.Content{
+  flex-grow: 5;
+}
+
+.Header{
+  height: 8%;
+  box-shadow: 1px 1px 10px #702a2a59;
+}
+
+.Section{
+  background-color: rgba(243, 237, 237, 0.658);
+  min-height: 92%;
+}
+
+
+
+/* input[type="time"] + i.fa {
+    pointer-events: none;
+    background-color: transparent;
+    color:black!important;
+  }
+
+
+input[type="time"]::-webkit-inner-spin-button,
+input[type="time"]::-webkit-calendar-picker-indicator {
+     opacity:0;   
+     
+    -webkit-appearance: none;
+ } */

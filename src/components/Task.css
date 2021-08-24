@@ -1,0 +1,258 @@
+
+
+.task__header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(212, 211, 211);
+}
+.task__header p{
+  display: flex;
+  flex-grow: 1;
+}
+
+.task__header span{
+  min-height: 100%;
+}
+
+
+.small-text{
+  font-size: 14px;
+  color: grey;
+  padding-left: 5px;
+}
+
+.plus-icon{
+  padding: 0 8px 0 8px;
+  font-size: 20px;
+  border: none;
+  border-left: 1px solid rgb(212, 211, 211);
+  background: none;
+  outline: none;
+}
+
+.task__text{
+  font-weight: 500;
+}
+.hide-datalist-icon{
+  height: 5.1em;
+  overflow: hidden;
+}
+
+.task__body{
+  padding: 15px;
+  background-color:rgb(235, 243, 243);
+}
+
+.custom-style{
+  position: absolute;
+  left: 94%;
+  top: 15%;
+  z-index: 9;
+  pointer-events: none;
+}
+
+@media only screen and (max-width:700px){
+  .custom-style{
+    left: 93%;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .custom-style{
+    left: 94%;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .custom-style{
+    left: 93%;
+  }
+}
+
+@media only screen and (max-width:300px){
+  .custom-style{
+    left: 91%;
+  }
+}
+
+
+.custom-style-for-time{
+  position: absolute;
+  left: 7%;
+  top: 13%;
+  z-index: 9;
+  pointer-events: none;
+}
+
+/* @media only screen and (max-width:800px){
+  .custom-style-for-time{
+    padding-left: 30px; 
+  }
+} */
+
+@media only screen and (max-width:600px){
+  .custom-style-for-time{
+    left: 16px;
+  }
+}
+
+@media only screen and (max-width:300px){
+  .custom-style-for-time{
+    left: 16px
+  }
+}
+
+
+.custom-style-for-dropdown{
+  position: absolute;
+  z-index: 9;
+  left: 91%;
+  top: 60%;
+}
+
+@media only screen and (max-width:700px){
+  .custom-style-for-dropdown{
+    left: 88%;
+  }
+}
+
+@media only screen and (max-width:600px){
+  .custom-style-for-dropdown{
+    left: 91%;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .custom-style-for-dropdown{
+    left: 90%;
+  }
+}
+
+@media only screen and (max-width:300px){
+  .custom-style-for-dropdown{
+    left: 88%;
+  }
+}
+
+.description__style{
+  width: 100% !important;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(77, 11, 11);
+}
+
+.input-group{
+  position: relative !important;
+}
+
+.form-group{
+  position: relative !important;
+}
+
+
+/* select */
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none; 
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select + i.fa {
+  pointer-events: none;
+  background-color: transparent;
+  color:black!important;
+}
+
+[list]::-webkit-calendar-picker-indicator{
+  display: none;
+  opacity: 0;
+}
+input[type="date"]::-webkit-calendar-picker-indicator{
+  /* opacity: 0; */
+  position: absolute;
+  left: 0;
+
+}
+input[type="date"]::-webkit-datetime-edit{
+  position: relative;
+  left: 15px;
+}
+input[type="date"]::-webkit-datetime-edit-fields-wrapper{
+  position: relative;
+  left: 15px;
+}
+
+
+
+.time__style  input::placeholder {
+  padding-left: 23px; 
+}
+.check{
+  text-align: center;
+}
+.time__style  input:focus {
+  text-align: center;
+  /* padding-left: 25px; */
+}
+
+
+@media only screen and (max-width:800px){
+  .time__style  input::placeholder{
+    padding-left: 30px; 
+  }
+}
+
+@media only screen and (max-width:600px){
+  .time__style  input::placeholder{
+    padding-left: 30px; 
+  }
+}
+
+@media only screen and (max-width:300px){
+  .time__style  input::placeholder{
+    padding-left: 30px; 
+  }
+}
+
+
+
+.cancel__button{
+  border:none;
+  outline: none;
+  background-color: transparent;
+  margin-top: 2px;
+  margin-right: 2em;
+}
+
+.save__button{
+  border:none !important;
+  outline: none !important;
+  margin-left: -5px !important;
+  padding: 4px 25px 4px 25px !important;
+  background-color: rgb(86, 199, 86) !important;
+}
+
+.delete__icon{
+  border: none;
+  outline: none;
+  margin: 0 0 2px 2px;
+  background-color: transparent;
+}
+
+.task-footer{
+  display: flex;
+}
+
+
+.task-footer-buttons{
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end
+}
